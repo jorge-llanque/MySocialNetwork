@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{0EE54CA7-E5D1-45AC-8F2D-02C468CC10B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{D0E8C060-D56D-400B-AEFB-04C6DD587BC0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebService", "WebService", "{1D61DD9F-7CBC-4604-875C-54113B73824E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySocialNetwork.Model", "MySocialNetwork.Model\MySocialNetwork.Model.csproj", "{DC184F03-4101-4270-B884-94C69F56B9EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySocialNetwork.Dto", "MySocialNetwork.Dto\MySocialNetwork.Dto.csproj", "{19AF0FD2-353A-4E55-B1EE-56F82FFC2D8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySocialNetwork.Domain", "MySocialNetwork.Domain\MySocialNetwork.Domain.csproj", "{2DB689A0-C34A-4CCD-9772-ACFF0EF3769F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySocialNetwork.WebService", "MySocialNetwork.WebService\MySocialNetwork.WebService.csproj", "{174AD79E-1613-4C79-A63A-8C672FB04EB2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC184F03-4101-4270-B884-94C69F56B9EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC184F03-4101-4270-B884-94C69F56B9EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC184F03-4101-4270-B884-94C69F56B9EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC184F03-4101-4270-B884-94C69F56B9EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19AF0FD2-353A-4E55-B1EE-56F82FFC2D8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19AF0FD2-353A-4E55-B1EE-56F82FFC2D8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19AF0FD2-353A-4E55-B1EE-56F82FFC2D8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19AF0FD2-353A-4E55-B1EE-56F82FFC2D8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DB689A0-C34A-4CCD-9772-ACFF0EF3769F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DB689A0-C34A-4CCD-9772-ACFF0EF3769F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DB689A0-C34A-4CCD-9772-ACFF0EF3769F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DB689A0-C34A-4CCD-9772-ACFF0EF3769F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{174AD79E-1613-4C79-A63A-8C672FB04EB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{174AD79E-1613-4C79-A63A-8C672FB04EB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{174AD79E-1613-4C79-A63A-8C672FB04EB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{174AD79E-1613-4C79-A63A-8C672FB04EB2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DC184F03-4101-4270-B884-94C69F56B9EA} = {D0E8C060-D56D-400B-AEFB-04C6DD587BC0}
+		{19AF0FD2-353A-4E55-B1EE-56F82FFC2D8D} = {D0E8C060-D56D-400B-AEFB-04C6DD587BC0}
+		{2DB689A0-C34A-4CCD-9772-ACFF0EF3769F} = {0EE54CA7-E5D1-45AC-8F2D-02C468CC10B8}
+		{174AD79E-1613-4C79-A63A-8C672FB04EB2} = {1D61DD9F-7CBC-4604-875C-54113B73824E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {590460D7-CF88-4A33-A517-90A2D84D0488}
+	EndGlobalSection
+EndGlobal
