@@ -15,6 +15,7 @@ namespace MySocialNetwork.WebService.Profiles
             /* Basic DTOs mapping*/
             CreateMap<ProfileDto, MySocialNetwork.Model.Entities.Profile>().ReverseMap();
             CreateMap<UserDto, User>().ReverseMap();
+            CreateMap<PostDto, Post>().ReverseMap();
         }
     }
 }

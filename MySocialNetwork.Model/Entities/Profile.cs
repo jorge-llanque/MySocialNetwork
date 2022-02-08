@@ -16,5 +16,6 @@ namespace MySocialNetwork.Model.Entities
         [Required]
         [StringLength(100)]
         public string Photo { get; set; }
+        public User User { get; set; }
     }
 }

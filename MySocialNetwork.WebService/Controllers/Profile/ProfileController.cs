@@ -60,7 +60,7 @@ namespace MySocialNetwork.WebService.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<ActionResult> Get([FromRoute] int id, [FromBody] ProfileDto profileDto)
+        public async Task<ActionResult> Put([FromRoute] int id, [FromBody] ProfileDto profileDto)
         {
             var profileDB = await _context.Profiles.FirstOrDefaultAsync(x => x.ProfileId == id);
             if(profileDB == null)
