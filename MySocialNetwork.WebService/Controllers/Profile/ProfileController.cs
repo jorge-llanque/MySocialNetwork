@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MySocialNetwork.WebService.Controllers.Profile
+namespace MySocialNetwork.WebService.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
