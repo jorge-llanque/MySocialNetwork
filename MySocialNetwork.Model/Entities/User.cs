@@ -11,5 +11,6 @@ namespace MySocialNetwork.Model.Entities
         public int UserId { get; set; }
         public string Name { get; set; }
         public int ProfileId { get; set; }
+        public Profile Profile { get; set; }
     }
 }
